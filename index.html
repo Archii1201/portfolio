@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Archi Patel</title>
+    <link rel="icon" type="image/png" href="title.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+               <img src="logo.png" alt="logo" class="logo">
+            </div>
+            <ul class="nav-menu" id="primary-navigation" aria-hidden="true">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button class="hamburger" type="button" aria-label="Toggle navigation" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span class="highlight">Archi Patel</span></h1>
+            <h2>Full Stack Developer</h2>
+            <p>I create amazing web experiences that make a difference</p>
+            <div class="home-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <div class="profile-image-container">
+                <img src="profile.jpg" alt="Archi Patel" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full-stack developer with experience in creating web applications using modern technologies. I love solving complex problems and turning ideas into reality through code.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or solving algorithmic challenges on LeetCode. I have actively participated in hackathons and earned various certifications to enhance my skills.</p>
+                    <div class="certificates">
+                        <h3>Achievements & Certificates</h3>
+                        <div class="achievement-items">
+                            <div class="achievement-item">
+                                <i class="fas fa-trophy"></i>
+                                <div class="achievement-content">
+                                    <h4>WWT All India Women Only Hackathon 2025</h4>
+                                    <p>Participated in the WWT All India Women Only Hackathon 2025, themed 'AI for Financial Inclusion of Women – AI Solutions for Economic Empowerment and Financial Literacy.' Collaborated on innovative AI-driven solutions aimed at empowering women with financial independence and literacy, and earned a certificate of participation.</p>
+                                    <a href="https://drive.google.com/file/d/1xhIBH3604fyfFwMac6zJeiswoV5KZKAF/view?usp=drive_link" class="certificate-link" target="_blank">
+                                        <i class="fas fa-download"></i> View Certificate
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-certificate"></i>
+                                <div class="achievement-content">
+                                    <h4>Adobe India Hackathon 2025</h4>
+                                    <p>Participated in the Adobe India Hackathon 2025, working on the 'Connecting the Dots' challenge to reimagine PDFs as intelligent, interactive experiences with document understanding and semantic linking. Contributed to building and submitting innovative solutions across multiple rounds, earning a certificate of participation from Adobe.</p>
+                                    <a href="https://drive.google.com/file/d/1_D9Mg8kxQLVKq2wrtXQC3uQmmg55-Rhq/view?usp=drive_link" class="certificate-link" target="_blank">
+                                        <i class="fas fa-download"></i> View Certificate
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-section">
+                    <h3>Education</h3>
+                    <div class="education-container">
+                        <div class="education-item">
+                            <div class="education-content">
+                                <h4>Bachelor of Technology (B.Tech)</h4>
+                                <p class="year">2023 - 2027</p>
+                                <p class="institution">Dharamshinh Desai University</p>
+                                <p class="field">Computer Science & Engineering</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-content">
+                                <h4>Higher Secondary (12th)</h4>
+                                 <p class="year">2022 - 2023</p>
+                                <p class="institution">RPTP</p>
+                                <p class="field">Science Stream</p>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-content">
+                                <h4>Additional Courses</h4>
+                                <p class="institution">Apna Collage</p>
+                                <p class="field">DSA in c++</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Technologies & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-layer-group"></i>
+                            <span>MEAN Stack</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-layer-group"></i>
+                            <span>MERN Stack</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-google"></i>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Terminal</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-slider-container">
+                <div class="project-slider">
+                    <div class="project-card">
+                        <div class="project-label">FULL STACK</div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-utensils fa-4x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Recipe Sharing Platform</h3>
+                            <p>"Developed a Recipe Sharing Platform using Spring Boot, Hibernate, and JPA with RESTful APIs, enabling users to create, update, delete, and search recipes. Implemented secure authentication and role-based access control using Spring Security, allowing admins to manage all recipes while regular users could manage only their own. Integrated likes, comments, and recipe saving features to enhance user engagement. Added payment gateway integration using Razorpay to enable seamless and secure transactions for premium features. Designed and optimized relational database schema with MySQL, ensuring efficient data storage and retrieval. Tested endpoints using Postman, following best practices for API documentation and error handling."</p>
+                            <div class="project-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Archi Patel</h4>
+                                    <p>Full Stack Developer</p>
+                                </div>
+                            </div>
+                            <a href="https://github.com/Archii1201/java_project" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-label">FULL STACK</div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-calendar-check fa-4x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Catering Management System</h3>
+                            <p>Built a Catering Management System using Django enabling customers to browse menus, place food orders, book chefs, and reserve catering services for events. Implemented secure authentication with custom user roles (customer and chef), allowing role-specific dashboards and functionalities. Integrated cart and order management features with real-time order tracking. Designed a responsive, user-friendly interface using Tailwind CSS, and implemented automated email notifications for booking confirmations. Utilized Django ORM for efficient database operations and ensured robust form validation and error handling.</p>
+                            <div class="project-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Archi Patel</h4>
+                                    <p>Full Stack Developer</p>
+                                </div>
+                            </div>
+                            <a href="https://github.com/Archii1201/CMS_PROJECT" target="_blank" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-label">FULL STACK</div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fab fa-github fa-4x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>GitHub Clone <span class="status-badge">Currently Working</span></h3>
+                            <p>Developed a GitHub Clone using the MERN stack (MongoDB, Express.js, React, Node.js) with JWT-based user authentication and role management. Implemented core version control commands (init, add, commit, push, pull, revert) via a terminal-like interface to simulate Git workflows. Designed and developed CRUD operations for user repositories and issue tracking. Integrated AWS services for cloud-based data storage and scalability. Utilized MongoDB for database management with Mongoose ODM for schema modeling. Conducted API testing and validation using Thunder Client, ensuring high reliability and performance of all endpoints.</p>
+                            <div class="project-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Archi Patel</h4>
+                                    <p>Full Stack Developer</p>
+                                </div>
+                            </div>
+                            <a href="https://github.com/JasmitaVekariya/GitHub_Clone" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-label">FULL STACK</div>
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-home fa-4x"></i>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Wanderlaust <span class="status-badge">Currently Working</span></h3>
+                            <p>Developed Wanderlaust, an Airbnb-like web application using Node.js, Express, and MongoDB for property listing and booking management. Implemented user authentication and authorization with session-based login. Integrated Google Maps API to display property locations and enable location-based search. Designed CRUD functionality for listings, reviews, and user profiles. Utilized MongoDB with Mongoose for efficient data modeling and validation. Built responsive and intuitive UI with EJS templates and CSS for a seamless user experience.</p>
+                            <div class="project-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Archi Patel</h4>
+                                    <p>Full Stack Developer</p>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Download Section -->
+    <section class="resume-section">
+        <div class="container">
+            <div class="resume-content">
+                <h3>Download My Resume</h3>
+                <p>Get a detailed overview of my skills, experience, and achievements in a professional format.</p>
+                <a href="https://drive.google.com/file/d/16d4ieIZWXB9TKbtnzjJRLnX5zUq5IFWt/view?usp=drive_link" class="resume-download-btn" target="_blank">
+                    <i class="fas fa-file-pdf"></i>
+                    <span>Download Resume (PDF)</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>1201archii@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 7874236825</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Anand, Gujarat</span>
+                    </div>
+                </div>
+                <form class="contact-form" action="hhttps://formspree.io/f/xeozdkkw" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio</h3>
+                    <p>Building amazing web experiences with passion and dedication.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Me</h3>
+                    <div class="social-links">
+                        <a href="hhttps://www.linkedin.com/in/archi-patel-765aa2350/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Archii1201" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://leetcode.com/u/archii_1201/" target="_blank" class="social-link">
+                            <i class="fas fa-code"></i>
+                            <span>LeetCode</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html> 
